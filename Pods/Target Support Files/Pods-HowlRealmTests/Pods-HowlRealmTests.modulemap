@@ -1,0 +1,6 @@
+framework module Pods_HowlRealmTests {
+  umbrella header "Pods-HowlRealmTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

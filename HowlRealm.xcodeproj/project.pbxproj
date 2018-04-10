@@ -14,6 +14,9 @@
 		02B4E43F207CD55300699986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B4E43D207CD55300699986 /* LaunchScreen.storyboard */; };
 		02B4E44A207CD55300699986 /* HowlRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4E449207CD55300699986 /* HowlRealmTests.swift */; };
 		02B4E455207CD55300699986 /* HowlRealmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4E454207CD55300699986 /* HowlRealmUITests.swift */; };
+		37545CEA96BA39D1E64170E9 /* Pods_HowlRealmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76008E4E0BF83D57977317F1 /* Pods_HowlRealmTests.framework */; };
+		A5218F2B6FBDE2872535EE06 /* Pods_HowlRealmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 691799C6D7E96ED79DE349BA /* Pods_HowlRealmUITests.framework */; };
+		FFA951829F7413DADAD5598C /* Pods_HowlRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58B182FD514F1A642A4BC7A6 /* Pods_HowlRealm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		02B4E450207CD55300699986 /* HowlRealmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlRealmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B4E454207CD55300699986 /* HowlRealmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlRealmUITests.swift; sourceTree = "<group>"; };
 		02B4E456207CD55300699986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D43A1141F88892D33FFB94C /* Pods-HowlRealmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlRealmTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlRealmTests/Pods-HowlRealmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5275918A89FC135C6ACA85B5 /* Pods-HowlRealmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlRealmUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlRealmUITests/Pods-HowlRealmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58B182FD514F1A642A4BC7A6 /* Pods_HowlRealm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlRealm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		691799C6D7E96ED79DE349BA /* Pods_HowlRealmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlRealmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A80B76DE15ADBCBA548FF23 /* Pods-HowlRealmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlRealmTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlRealmTests/Pods-HowlRealmTests.release.xcconfig"; sourceTree = "<group>"; };
+		72F3F00E6630286D1A979483 /* Pods-HowlRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlRealm/Pods-HowlRealm.release.xcconfig"; sourceTree = "<group>"; };
+		76008E4E0BF83D57977317F1 /* Pods_HowlRealmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlRealmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDBB00A8B52208BB9CD507A8 /* Pods-HowlRealmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlRealmUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlRealmUITests/Pods-HowlRealmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E5F85C23FFF1AE64F2890F68 /* Pods-HowlRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlRealm/Pods-HowlRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFA951829F7413DADAD5598C /* Pods_HowlRealm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37545CEA96BA39D1E64170E9 /* Pods_HowlRealmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5218F2B6FBDE2872535EE06 /* Pods_HowlRealmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				02B4E448207CD55300699986 /* HowlRealmTests */,
 				02B4E453207CD55300699986 /* HowlRealmUITests */,
 				02B4E432207CD55300699986 /* Products */,
+				41D41D6DC98A964A06EA4204 /* Pods */,
+				088177D94EE706D4D409A5EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = HowlRealmUITests;
 			sourceTree = "<group>";
 		};
+		088177D94EE706D4D409A5EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58B182FD514F1A642A4BC7A6 /* Pods_HowlRealm.framework */,
+				76008E4E0BF83D57977317F1 /* Pods_HowlRealmTests.framework */,
+				691799C6D7E96ED79DE349BA /* Pods_HowlRealmUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41D41D6DC98A964A06EA4204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5F85C23FFF1AE64F2890F68 /* Pods-HowlRealm.debug.xcconfig */,
+				72F3F00E6630286D1A979483 /* Pods-HowlRealm.release.xcconfig */,
+				3D43A1141F88892D33FFB94C /* Pods-HowlRealmTests.debug.xcconfig */,
+				6A80B76DE15ADBCBA548FF23 /* Pods-HowlRealmTests.release.xcconfig */,
+				5275918A89FC135C6ACA85B5 /* Pods-HowlRealmUITests.debug.xcconfig */,
+				BDBB00A8B52208BB9CD507A8 /* Pods-HowlRealmUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B4E459207CD55300699986 /* Build configuration list for PBXNativeTarget "HowlRealm" */;
 			buildPhases = (
+				F75540FCA25BA4307EA214F5 /* [CP] Check Pods Manifest.lock */,
 				02B4E42D207CD55300699986 /* Sources */,
 				02B4E42E207CD55300699986 /* Frameworks */,
 				02B4E42F207CD55300699986 /* Resources */,
+				2453FEF489F5DDA790D72A89 /* [CP] Embed Pods Frameworks */,
+				45F89CF3AE9A4F63488C8C15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B4E45C207CD55300699986 /* Build configuration list for PBXNativeTarget "HowlRealmTests" */;
 			buildPhases = (
+				9FBAAA46EFA9CF13FCD4E7B6 /* [CP] Check Pods Manifest.lock */,
 				02B4E441207CD55300699986 /* Sources */,
 				02B4E442207CD55300699986 /* Frameworks */,
 				02B4E443207CD55300699986 /* Resources */,
+				8CFB4634E17912F208313D65 /* [CP] Embed Pods Frameworks */,
+				340F371508F97EBEBCC3E7C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B4E45F207CD55300699986 /* Build configuration list for PBXNativeTarget "HowlRealmUITests" */;
 			buildPhases = (
+				B1105E6B61D46CF3A0705606 /* [CP] Check Pods Manifest.lock */,
 				02B4E44C207CD55300699986 /* Sources */,
 				02B4E44D207CD55300699986 /* Frameworks */,
 				02B4E44E207CD55300699986 /* Resources */,
+				0F228CD853B37E5F884E8E6E /* [CP] Embed Pods Frameworks */,
+				1A0A37079DA65C447E7383AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,158 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F228CD853B37E5F884E8E6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealmUITests/Pods-HowlRealmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A0A37079DA65C447E7383AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealmUITests/Pods-HowlRealmUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2453FEF489F5DDA790D72A89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealm/Pods-HowlRealm-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealm/Pods-HowlRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		340F371508F97EBEBCC3E7C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealmTests/Pods-HowlRealmTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F89CF3AE9A4F63488C8C15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealm/Pods-HowlRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CFB4634E17912F208313D65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlRealmTests/Pods-HowlRealmTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FBAAA46EFA9CF13FCD4E7B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlRealmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1105E6B61D46CF3A0705606 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlRealmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F75540FCA25BA4307EA214F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		02B4E42D207CD55300699986 /* Sources */ = {
@@ -424,6 +625,7 @@
 		};
 		02B4E45A207CD55300699986 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5F85C23FFF1AE64F2890F68 /* Pods-HowlRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +640,7 @@
 		};
 		02B4E45B207CD55300699986 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72F3F00E6630286D1A979483 /* Pods-HowlRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +655,7 @@
 		};
 		02B4E45D207CD55300699986 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D43A1141F88892D33FFB94C /* Pods-HowlRealmTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +672,7 @@
 		};
 		02B4E45E207CD55300699986 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A80B76DE15ADBCBA548FF23 /* Pods-HowlRealmTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +689,7 @@
 		};
 		02B4E460207CD55300699986 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5275918A89FC135C6ACA85B5 /* Pods-HowlRealmUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +705,7 @@
 		};
 		02B4E461207CD55300699986 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDBB00A8B52208BB9CD507A8 /* Pods-HowlRealmUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
